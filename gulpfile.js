@@ -11,16 +11,17 @@ const path = {
     },
     src: {
         html: [source_project + "/index.html"],
-        css: source_project + "/style.scss",
+        css: source_project + "/style/style.scss",
         js: source_project + "/js/index.js",
         img: source_project + "/img/**/*.*",
-        fonts: source_project + "/fonts/",
+        fonts: source_project + "/fonts/**/*.*",
     },
     watch: {
         html: source_project + "/**/*.html",
         css: source_project + "/**/*.scss",
         js: source_project + "/js/*.js",
         img: source_project + "/img/**/*.*",
+        fonts: source_project + "/fonts/**/*.*",
         
     },
     clean: './build'
@@ -112,6 +113,7 @@ function watchFiles() {
     gulp.watch([path.watch.css], css);
     gulp.watch([path.watch.js], js);
     gulp.watch([path.watch.img], imgMin);
+    gulp.watch([path.watch.fonts], fonts);
 }
 //чистка папки build
 async function clean(params) {
@@ -121,7 +123,9 @@ async function clean(params) {
 const build = gulp.series(clean, gulp.parallel(fonts,imgMin,js,css,html));
 const watch = gulp.parallel(build, watchFiles, browserSync);
 
-exports.imgMin = imgMin;
+
+
+exports.js = js;
 exports.html = html;
 exports.css = css;
 exports.build = build;
