@@ -1,74 +1,93 @@
-//Lobster
+//Roboto
 @font-face {
-    font-family: "Lobster";
-    src: url("../fonts/Lobster/lobsterRegular.eot");
-    src: url("../fonts/Lobster/lobsterRegular.eot?#iefix")format("embedded-opentype"),
-    url("../fonts/Lobster/lobsterRegular.woff") format("woff"),
-    url("../fonts/Lobster/lobsterRegular.ttf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
-}
-//Oswald
-@font-face {
-    font-family: "Oswald_Bold";
-    src: url("../fonts/Oswald/Oswald-Bold.eot");
-    src: url("../fonts/Oswald/Oswald-Bold.eot?#iefix")format("embedded-opentype"),
-    url("../fonts/Oswald/Oswald-Bold.woff") format("woff"),
-    url("../fonts/Oswald/Oswald-Bold.woff2") format("woff2"),
-    url("../fonts/Oswald/Oswald-Bold.ttf") format("truetype");
+    font-family: "Roboto-Black";
+    src: url("../fonts/Roboto/Roboto-Black.eot");
+    src: url("../fonts/Roboto/Roboto-Black.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/Roboto/Roboto-Black.woff") format("woff"),
+    url("../fonts/Roboto/Roboto-Black.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
 }
 
 @font-face {
-    font-family: "Oswald_Regular";
-    src: url("../fonts/Oswald/Oswald-Regular.eot");
-    src: url("../fonts/Oswald/Oswald-Regular.eot?#iefix")format("embedded-opentype"),
-    url("../fonts/Oswald/Oswald-Regular.woff") format("woff"),
-    url("../fonts/Oswald/Oswald-Regular.woff2") format("woff2"),
-    url("../fonts/Oswald/Oswald-Regular.ttf") format("truetype");
+    font-family: "Roboto-Thin";
+    src: url("../fonts/Roboto/Roboto-Thin.eot");
+    src: url("../fonts/Roboto/Roboto-Thin.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/Roboto/Roboto-Thin.woff") format("woff"),
+    url("../fonts/Roboto/Roboto-Thin.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
 }
 
 @font-face {
-    font-family: "Oswald_Light";
-    src: url("../fonts/Oswald/Oswald-Light.eot");
-    src: url("../fonts/Oswald/Oswald-Light.eot?#iefix")format("embedded-opentype"),
-    url("../fonts/Oswald/Oswald-Light.woff") format("woff"),
-    url("../fonts/Oswald/Oswald-Light.woff2") format("woff2"),
-    url("../fonts/Oswald/Oswald-Light.ttf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
-}
-//PT_Sans_Web
-@font-face {
-    font-family: "PTSansRegular";
-    src: url("../fonts/PT_Sans_Web/PTSansRegular.eot");
-    src: url("../fonts/PT_Sans_Web/PTSansRegular.eot?#iefix")format("embedded-opentype"),
-    url("../fonts/PT_Sans_Web/PTSansRegular.woff") format("woff"),
-    url("../fonts/PT_Sans_Web/PT_Sans-Web-Regular.ttf") format("truetype");
+    font-family: "Roboto-Light";
+    src: url("../fonts/Roboto/RobotoLight.eot");
+    src: url("../fonts/Roboto/RobotoLight.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/Roboto/RobotoLight.woff") format("woff"),
+    url("../fonts/Roboto/RobotoLight.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
 }
 
 @font-face {
-    font-family: "PTSansItalic";
-    src: url("../fonts/PT_Sans_Web/PTSansItalic.eot");
-    src: url("../fonts/PT_Sans_Web/PTSansItalic.eot?#iefix")format("embedded-opentype"),
-    url("../fonts/PT_Sans_Web/PTSansItalic.woff") format("woff"),
-    url("../fonts/PT_Sans_Web/PT_Sans-Web-Italic.ttf") format("truetype");
+    font-family: "Roboto-Regular";
+    src: url("../fonts/Roboto/RobotoRegular.eot");
+    src: url("../fonts/Roboto/RobotoRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/Roboto/RobotoRegular.woff") format("woff"),
+    url("../fonts/Roboto/RobotoRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+//PlayfairDisplay
+
+@font-face {
+    font-family: "PlayfairDisplay-Black";
+    src: url("../fonts/PlayfairDisplay/PlayfairDisplay-Black.eot");
+    src: url("../fonts/PlayfairDisplay/PlayfairDisplay-Black.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/PlayfairDisplay/PlayfairDisplay-Black.woff") format("woff"),
+    url("../fonts/PlayfairDisplay/PlayfairDisplay-Black.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
 }
 
 @font-face {
-    font-family: "PTSansBold";
-    src: url("../fonts/PT_Sans_Web/PTSansBold.eot");
-    src: url("../fonts/PT_Sans_Web/PTSansBold.eot?#iefix")format("embedded-opentype"),
-    url("../fonts/PT_Sans_Web/PTSansBold.woff") format("woff"),
-    url("../fonts/PT_Sans_Web/PT_Sans-Web-Bold.ttf") format("truetype");
+    font-family: "PlayfairDisplay-Bold";
+    src: url("../fonts/PlayfairDisplay/PlayfairDisplay-Bold.eot");
+    src: url("../fonts/PlayfairDisplay/PlayfairDisplay-Bold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/PlayfairDisplay/PlayfairDisplay-Bold.woff") format("woff"),
+    url("../fonts/PlayfairDisplay/PlayfairDisplay-Bold.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
 }
+
+@font-face {
+    font-family: "PlayfairDisplay-Regular";
+    src: url("../fonts/PlayfairDisplay/PlayfairDisplay-Regular.eot");
+    src: url("../fonts/PlayfairDisplay/PlayfairDisplay-Regular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/PlayfairDisplay/PlayfairDisplay-Regular.woff") format("woff"),
+    url("../fonts/PlayfairDisplay/PlayfairDisplay-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+//HammersmithOne
+
+@font-face {
+    font-family: "HammersmithOne-Regular";
+    src: url("../fonts/HammersmithOne/HammersmithOne-Regular.eot");
+    src: url("../fonts/HammersmithOne/HammersmithOne-Regular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/HammersmithOne/HammersmithOne-Regular.woff") format("woff"),
+    url("../fonts/HammersmithOne/HammersmithOne-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+
+
+
+
+
+
+
 
